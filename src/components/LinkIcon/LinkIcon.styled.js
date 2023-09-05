@@ -1,8 +1,7 @@
 import styled from '@emotion/styled';
-import { Link } from 'react-router-dom';
 import { baseTransition } from 'styles/theme';
 
-export const StyledLink = styled(Link)`
+export const StyledLink = styled.a`
   display: flex;
   align-items: center;
   padding: 5px;

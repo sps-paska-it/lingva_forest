@@ -1,4 +1,5 @@
 import styled from '@emotion/styled';
+import { baseTransition } from 'styles/theme';
 
 export const StyledHeader = styled.header`
   position: fixed;
@@ -6,9 +7,9 @@ export const StyledHeader = styled.header`
   justify-content: space-between;
   align-items: center;
   top: 15px;
-  right: calc((${window.innerWidth}px - 1140px) / 2);
+  right: calc((${window.innerWidth}px - 1200px) / 2);
   padding: 10px 25px;
-  width: 1170px;
+  width: 1200px;
   border-radius: 25px;
   background-color: ${props => props.theme.colors.header};
 `;
@@ -24,7 +25,8 @@ export const StyledLi = styled.li`
   border-radius: 15px;
   box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-  transition: border-color background-color 0.9s ease;
+  transition: border-color ${baseTransition}, background-color ${baseTransition};
+
   :hover,
   :focus {
     border-color: #444;
@@ -35,12 +37,4 @@ export const StyledLi = styled.li`
 export const Wrapper = styled.div`
   display: flex;
   column-gap: 8px;
-  /* padding: 5px;
-  border-radius: 10px;
-  transition: border-color background-color 0.9s ease;
-  :hover,
-  :focus {
-    border-color: #007bff;
-    background-color: ${props => props.theme.colors.headerHover};
-  } */
 `;
