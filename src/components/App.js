@@ -15,6 +15,9 @@ import { Header } from './Header/Header';
 export const App = () => {
   const [currTheme, setCurrTheme] = useState({
     ...theme.dark,
+    // ...theme.green,
+    // ...theme.yellow,
+    // ...theme.light,
     devices,
     baseTransition,
   });

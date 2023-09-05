@@ -1,5 +1,5 @@
 import { Svg } from 'components/SvgIcon/SvgIcon';
-import { StyledHeader, StyledUl } from './Header.styled';
+import { StyledHeader, StyledLi, StyledUl, Wrapper } from './Header.styled';
 import { LinkIcon } from 'components/LinkIcon/LinkIcon';
 
 export const Header = () => {
@@ -9,23 +9,26 @@ export const Header = () => {
         <Svg w={32} h={32} icon="google" />
       </a>
       <StyledUl>
-        <li>
+        <StyledLi>
           <a href="https://www.instagram.com/">Домашня</a>
-        </li>
-        <li>
+        </StyledLi>
+        <StyledLi>
           <a href="https://www.instagram.com/">Курси</a>
-        </li>
-        <li>
+        </StyledLi>
+        <StyledLi>
           <a href="https://www.instagram.com/">Заняття із викладачем</a>
-        </li>
-        <li>
+        </StyledLi>
+        <StyledLi>
           <a href="https://www.instagram.com/">Про школу</a>
-        </li>
-        <li>
+        </StyledLi>
+        <StyledLi>
           <a href="https://www.instagram.com/">Контакти</a>
-        </li>
+        </StyledLi>
       </StyledUl>
-      <LinkIcon link="https://www.instagram.com/" icon="instagram" />
+      <Wrapper>
+        <LinkIcon link="https://www.instagram.com/" icon="instagram" />
+        <LinkIcon link="https://www.instagram.com/" icon="send" />
+      </Wrapper>
     </StyledHeader>
   );
 };

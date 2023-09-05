@@ -3,12 +3,14 @@ import { Link } from 'react-router-dom';
 import { baseTransition } from 'styles/theme';
 
 export const StyledLink = styled(Link)`
-  cursor: pointer;
-  fill: ${props => props.theme.colors.sideBar};
-  transition: fill ${baseTransition};
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border-radius: 10px;
+  transition: background-color ${baseTransition};
 
   &:hover,
   &:focus {
-    fill: ${props => props.theme.colors.iconHover};
+    background-color: ${props => props.theme.colors.headerHover};
   }
 `;

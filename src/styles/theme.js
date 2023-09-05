@@ -9,25 +9,23 @@ const sizes = {
 export const theme = Object.freeze({
   dark: {
     colors: {
-      background: '#1F1F1F', //Background color
-      sideBar: '#121212', //Sidebar color
-      sideBarMainText: '#fff', //Sidebar color text main
-      header: 'rgba(22, 255, 255, 0.9)',
+      // header: 'rgba(50, 205, 50, 0.9)',
+      header: 'rgba(60, 179, 113, 0.9)',
+      headerHover: 'rgba(34, 139, 34, 0.9)',
     },
   },
   light: {
     colors: {
-      background: '#F6F6F7', //Background color
-      sideBar: '#fff', //Sidebar color
-      sideBarMainText: '#161616', //Sidebar color text main
       header: 'rgba(255, 255, 255, 0.9)',
     },
   },
   green: {
     colors: {
-      background: '#ECEDFD', //Background color
-      sideBar: '#5255BC', //Sidebar color
-      sideBarMainText: '#fff', //Sidebar color text main
+      header: 'rgba(255, 255, 255, 0.9)',
+    },
+  },
+  yellow: {
+    colors: {
       header: 'rgba(255, 255, 255, 0.9)',
     },
   },
