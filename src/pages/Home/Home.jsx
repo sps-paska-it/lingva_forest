@@ -1,17 +1,26 @@
 import { Container } from 'components/Container/Container';
-import { StyledDiv } from './Home.styled';
+import { StyledDiv, StyledH1, TextDiv } from './Home.styled';
 
 const Home = () => {
   return (
-    <Container>
+    <>
       <StyledDiv>
-        Home
-        <img
-          src="https://i0.wp.com/deutschtrend.com/wp-content/uploads/2016/05/bike-bjg.jpg?fit=1888%2C913&ssl=1"
-          alt="logo"
-        />
+        <Container>
+          <StyledH1>
+            Школа іноземних мов "Lingva forest" DEUTSCH ENGLISH
+          </StyledH1>
+          <TextDiv>
+            <p>
+              Вітаю тебе на своїй міжнародній платформі вивчення німецької для
+              українців. Я - Лілія Хоньків, філологиня і перекладачка, з більш,
+              ніж 10-річним досвідом роботи у сфері онлайн-освіти. Переходь на
+              мої соцмережі, де щодня наше живе спілкування. Чекаю тебе на своїх
+              курсах - тут твоє щоденне зростання.
+            </p>
+          </TextDiv>
+        </Container>
       </StyledDiv>
-    </Container>
+    </>
   );
 };
 
