@@ -5,9 +5,11 @@ import { Container } from 'components/Container/Container';
 import { Link } from 'react-router-dom';
 
 export const Header = () => {
+  const widthVP = `calc((${window.innerWidth}px - 1200px) / 2)`;
+
   return (
     <Container>
-      <StyledHeader>
+      <StyledHeader widthVP={widthVP}>
         <Link to="/">
           <Svg w={32} h={32} icon="google" />
         </Link>

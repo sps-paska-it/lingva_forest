@@ -1,10 +1,21 @@
 import styled from '@emotion/styled';
+import forest from 'img/forest.jpg';
 
 export const StyledDiv = styled.div`
   margin-top: 85px;
   /* border-top: 2px solid rgba(34, 139, 34); */
   height: 800px;
-  background-color: rgb(180, 255, 160);
+  background: #2f303a;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(
+      rgba(150, 200, 150, 0.7),
+      rgba(170, 200, 170, 0.7)
+    ),
+    url(${forest});
+
+  /* background-color: rgb(180, 255, 160); */
 `;
 
 export const StyledH1 = styled.h1`

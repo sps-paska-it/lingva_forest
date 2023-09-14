@@ -7,7 +7,7 @@ export const StyledHeader = styled.header`
   justify-content: space-between;
   align-items: center;
   top: 15px;
-  right: calc((${window.innerWidth}px - 1200px) / 2);
+  right: ${prop => `${prop.widthVP}px`};
   padding: 10px 25px;
   width: 1200px;
   border-radius: 25px;
