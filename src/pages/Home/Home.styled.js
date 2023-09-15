@@ -1,5 +1,6 @@
 import styled from '@emotion/styled';
 import forest from 'img/forest.jpg';
+import hero from 'img/hero.png';
 
 export const StyledDiv = styled.div`
   margin-top: 85px;
@@ -11,9 +12,9 @@ export const StyledDiv = styled.div`
   background-repeat: no-repeat;
   background-image: linear-gradient(
       rgba(150, 200, 150, 0.7),
-      rgba(170, 200, 170, 0.7)
+      rgba(170, 200, 170, 0)
     ),
-    url(${forest});
+    url(${hero});
 
   /* background-color: rgb(180, 255, 160); */
 `;
