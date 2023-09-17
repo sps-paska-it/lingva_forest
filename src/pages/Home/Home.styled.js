@@ -1,26 +1,23 @@
 import styled from '@emotion/styled';
-import forest from 'img/forest.jpg';
-import hero from 'img/hero.png';
+import online from 'img/school.jpg';
 
 export const StyledDiv = styled.div`
   margin-top: 85px;
-  /* border-top: 2px solid rgba(34, 139, 34); */
   height: 800px;
   background: #2f303a;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-image: linear-gradient(
-      rgba(150, 200, 150, 0.7),
-      rgba(170, 200, 170, 0)
+      rgba(17, 17, 17, 0.6),
+      rgba(17, 17, 17, 0.6)
     ),
-    url(${hero});
-
-  /* background-color: rgb(180, 255, 160); */
+    url(${online});
 `;
 
 export const StyledH1 = styled.h1`
-  margin: 0 auto;
+  margin: 0;
+  color: #fff;
   padding-top: 75px;
   text-align: center;
   width: 380px;
