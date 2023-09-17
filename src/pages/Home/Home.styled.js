@@ -4,7 +4,7 @@ import online from 'img/school.jpg';
 export const StyledDiv = styled.div`
   margin-top: 85px;
   height: 800px;
-  background: #2f303a;
+  /* background: #2f303a; */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
