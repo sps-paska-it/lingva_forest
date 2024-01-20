@@ -1,10 +1,12 @@
 import styled from '@emotion/styled';
 import online from 'img/school.jpg';
+import { TbBounceRight } from 'react-icons/tb';
+import { GiMountainCave } from 'react-icons/gi';
 
 export const StyledDiv = styled.div`
-  margin-top: 85px;
+  margin-top: 115px;
   height: 800px;
-  /* background: #2f303a; */
+  background: #2f303a;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -35,4 +37,19 @@ export const TextDiv = styled.div`
   padding: 15px;
   border-radius: 15px;
   background-color: #fff;
+`;
+
+export const StyledSvg = styled(TbBounceRight)`
+  display: block;
+  margin-left: 25px;
+  width: 32px;
+  height: 32px;
+  color: #fff;
+`;
+export const StylSvg = styled(GiMountainCave)`
+  display: block;
+
+  width: 50px;
+  height: 50px;
+  color: #fff;
 `;

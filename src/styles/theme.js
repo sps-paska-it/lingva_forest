@@ -9,7 +9,7 @@ const sizes = {
 export const theme = Object.freeze({
   dark: {
     colors: {
-      // header: 'rgba(50, 205, 50, 0.9)',
+      // header: 'rgba(31, 31, 31, 0.9)',
       header: 'rgba(60, 179, 113, 0.9)',
       headerHover: 'rgba(34, 139, 34)',
     },

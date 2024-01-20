@@ -3,7 +3,7 @@ import { StyledHeader, StyledLi, StyledUl, Wrapper } from './Header.styled';
 import { LinkIcon } from 'components/LinkIcon/LinkIcon';
 import { Container } from 'components/Container/Container';
 import { Link } from 'react-router-dom';
-import logo from 'img/11.jpg';
+import logo from 'img/logoHeart.png';
 
 export const Header = () => {
   const widthVP = `calc((${window.innerWidth}px - 1200px) / 2)`;
@@ -12,7 +12,7 @@ export const Header = () => {
     <Container>
       <StyledHeader widthVP={widthVP}>
         <Link to="/">
-          <img src={logo} alt="logo" width="32px" />
+          <img src={logo} alt="logo" width="64px" />
           {/* <Svg w={32} h={32} icon="google" /> */}
         </Link>
         <StyledUl>
