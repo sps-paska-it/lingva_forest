@@ -16,7 +16,7 @@ const Home = () => {
           {/* <StyledSvg />
           <StylSvg /> */}
           <StyledH1>
-            Школа іноземних мов "Stetsiukschool" DEUTSCH ENGLISH
+            Школа іноземних мов "Stetsiuk-_-school" DEUTSCH ENGLISH
           </StyledH1>
           <Wrapper>
             <TextDiv>

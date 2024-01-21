@@ -4,7 +4,7 @@ import { TbBounceRight } from 'react-icons/tb';
 import { GiMountainCave } from 'react-icons/gi';
 
 export const StyledDiv = styled.div`
-  margin-top: 115px;
+  padding-top: 115px;
   height: 800px;
   background: #2f303a;
   background-size: cover;

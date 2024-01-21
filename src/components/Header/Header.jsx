@@ -6,14 +6,14 @@ import { Link } from 'react-router-dom';
 import logo from 'img/logoHeart.png';
 
 export const Header = () => {
-  const widthVP = `calc((${window.innerWidth}px - 1200px) / 2)`;
+  const widthVP = `calc((${window.innerWidth}px - 1440px) / 2)`;
 
   return (
     <Container>
       <StyledHeader widthVP={widthVP}>
         <Link to="/">
           <img src={logo} alt="logo" width="64px" />
-          {/* <Svg w={32} h={32} icon="google" /> */}
+          <p>Stetsiuk-_-school</p>
         </Link>
         <StyledUl>
           <StyledLi>

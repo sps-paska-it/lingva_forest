@@ -9,7 +9,7 @@ export const StyledHeader = styled.header`
   top: 15px;
   right: ${prop => `${prop.widthVP}px`};
   padding: 10px 25px;
-  width: 1200px;
+  width: 1440px;
   border-radius: 25px;
   background-color: ${props => props.theme.colors.header};
 `;
